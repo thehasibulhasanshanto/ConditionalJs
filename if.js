@@ -5,7 +5,7 @@
 //     console.log('i have a biger value')
 // }
 
-var biriyaniPrice = 300;
+var biriyaniPrice = 400;
 if(biriyaniPrice < 300){
     console.log('mama give some biriyani')
 }else{
