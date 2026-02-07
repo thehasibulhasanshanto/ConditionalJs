@@ -30,9 +30,8 @@ else{
     // console.log('You will pay full amount ' + foodPrice + ' Taka')
 }
 
-const mark = 32
-
-if (mark >= 0 || mark < 32){
+const mark = 900
+if (mark >= 0 && mark <= 32){
     console.log('Your grade is Fail')
 }else if (mark <= 39){
     console.log('Your grade is D')
@@ -44,6 +43,9 @@ if (mark >= 0 || mark < 32){
     console.log('Your grade is B+')
 }else if (mark <= 79){
     console.log('Your grade is A')
-}else if (mark > 100){
+}else if (mark <= 100){
+    console.log('Your grade is A+')
+}
+else{
     console.log('Invalid Result')
 }
